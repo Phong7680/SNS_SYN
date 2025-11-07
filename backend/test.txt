@@ -1,0 +1,51 @@
+* sign up
+http://127.0.0.1:5000/signup/phong7680/1234/profile.jpg/Phong
+
+* login
+http://127.0.0.1:5000/login/phong7680/abcd
+http://127.0.0.1:5000/login/phong7680/1234
+
+* logout
+http://127.0.0.1:5000/logout
+
+* loginInfo
+http://127.0.0.1:5000/login_info
+
+* account DataBase
+http://127.0.0.1:5000/account_data
+
+* post Content
+http://127.0.0.1:5000/all_post
+
+* post
+http://127.0.0.1:5000/post/Test!!!!/Test.jpg
+
+* comment DataBase
+http://127.0.0.1:5000/comment_data
+
+* comment
+http://127.0.0.1:5000/comment/1/Comment Test!
+
+# いいね
+http://127.0.0.1:5000/like/1
+
+# いいねデータベース
+http://127.0.0.1:5000/like_data
+
+# パースワード変更
+http://127.0.0.1:5000/change_info/password/abcd1234
+
+# ユーザ名変更
+http://127.0.0.1:5000/change_info/user_name/NguyenThePhong
+
+# プロフィール写真変更
+http://127.0.0.1:5000/change_info/account_picture/Profile.png
+
+# ユーザ削除
+http://127.0.0.1:5000/delete_account
+
+# 画像アップロード
+http://127.0.0.1:5000/upload
+
+#　１つの投稿内容取得
+http://127.0.0.1:5000/post/<post_id>
